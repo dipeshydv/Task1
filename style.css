@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(89.2deg, rgb(0, 0, 0) 10.4%, rgb(255, 0, 0) 37.1%, rgb(255, 216, 51) 64.3%, rgb(255, 255, 255) 90.5%);
+}
+
+header {
+    background-color: red;
+    background: linear-gradient(72.3deg, rgb(29, 7, 64) 8.5%, rgb(253, 105, 139) 92.2%);
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background-color: #b06969;
+    background: linear-gradient(72.3deg, rgb(29, 7, 64) 8.5%, rgb(253, 105, 139) 92.2%);
+    border: 2px solid #ddd;
+    padding: 1em;
+    margin: 1em;
+    width: calc(33.33% - 2em);
+    border-radius: 6px;
+   
+}
+.product:hover{
+    transform: scale(1.1);
+}
+
+.product h2 {
+    margin-top: 0;
+}
+
+.product p {
+    margin-bottom: 1em;
+    color: #f7f7f7;
+}
+
+.product span {
+    font-size: 0.8em;
+    color: #666;
+    text-decoration: line-through;
+}
+
+button {
+    padding: 7px 12px;
+    border: 2px solid rgb(255, 10, 10);
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(50, 50, 101);
+}
+
+button:hover {
+    background-color: #4c21cb;
+}
+
+.vpn-offer {
+    background-color: #f7f7f7;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+
+.protection{
+    max-width: 89%;
+    max-height: 100%
+    
+    }
